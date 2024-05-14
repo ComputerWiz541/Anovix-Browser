@@ -1,0 +1,105 @@
+/* General Styles */
+QMainWindow {
+    background-color: #F0F0F0;
+    color: #333333;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+QTabBar::tab {
+    background-color: #DDDDDD;
+    color: #333333;
+    padding: 10px 16px;
+    min-width: 120px;
+    border: 1px solid #CCCCCC;
+    border-bottom: none;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+QTabBar::tab:selected {
+    background-color: #FFFFFF;
+    border-top: 3px solid #3498DB;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px;
+}
+
+QTabBar::tab:hover {
+    background-color: #F0F0F0;
+}
+
+QTabBar::close-button {
+    qproperty-icon: url(close.svg);
+    subcontrol-origin: padding;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+QTabBar::close-button:hover {
+    background-color: #E74C3C;
+}
+
+/* Toolbar */
+QToolBar {
+    background-color: #FFFFFF;
+    padding: 6px;
+    border-bottom: 1px solid #CCCCCC;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+QToolBar QToolButton {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QToolBar QToolButton:hover {
+    background-color: #F0F0F0;
+}
+
+/* URL Bar */
+QLineEdit {
+    padding: 6px 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFFFFF, stop:1 #F0F0F0);
+    color: #333333;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border-color: #3498DB;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 6px;
+    border-top: 1px solid #CCCCCC;
+    font-size: 12px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* Misc */
+QToolTip {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
