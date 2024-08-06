@@ -12,4 +12,6 @@ Release Notes:
 -Improved Appearance
 And More!
 
+Download here: https://github.com/ComputerWiz541/Anovix-Browser/releases/tag/Version-0.2
+
 ![Preview Image](preview-image.png)
