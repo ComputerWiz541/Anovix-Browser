@@ -1,17 +1,15 @@
 Update Log
-Version 0.2
-Date: Aug 06, 2024
+Version 0.3
+Date: Aug 07, 2024
 
 Release Notes:
 
--Clicking on the text box highlights all the text.
--Added a new sidebar.
--Added a email button.
--Added a calculator button.
--Improved loading speeds.
--Improved Appearance
+-Websites won't randomly launch in a separate window.
+-New and improved icons.
+-New side panel buttons.
+-Improved load time.
 And More!
 
-Download here: https://github.com/ComputerWiz541/Anovix-Browser/releases/tag/Version-0.2
+Download here: https://github.com/ComputerWiz541/Anovix-Browser/releases/tag/Version-0.3
 
-![Preview Image](preview-image.png)
+![Preview Image](Screenshot 2024-08-07 185740.png)
